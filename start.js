@@ -92,5 +92,3 @@ if (age < 13) {
 } else {
     console.log(`11: ${firstName} is an adult`)
 }
-
-
