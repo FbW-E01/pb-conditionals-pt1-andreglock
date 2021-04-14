@@ -44,8 +44,8 @@ if (50 <= a + b && a + b <= 80) {
     console.log('5:', 80);
 }
 
-const intFour = 9;
-const intFive = 17;
+const intFour = 32;
+const intFive = 40;
 
 if (intFour + intFive === 8 || Math.sqrt(Math.pow((intFour - intFive), 2)) === 8) {
 // Math.sqrt(Math.pow((intFour - intFive), 2)) checks also intFive - intFour
@@ -78,6 +78,19 @@ if (difference > 19) {
     console.log('10:', difference * 2);
 } else {
     console.log('10: the difference is less than 19');
+}
+
+const firstName = 'Pedro';
+const age = 14;
+
+if (age < 13) {
+    console.log(`11: ${firstName} is a child`)
+} else if (age < 20) {
+    console.log(`11: ${firstName} is a teenager`)
+} else if (age < 30) {
+    console.log(`11: ${firstName} is a young adult`)
+} else {
+    console.log(`11: ${firstName} is an adult`)
 }
 
 
